@@ -1,0 +1,100 @@
+body{
+  background-color: #22252D;
+  font-family: 'poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  height: 100vh;
+  width: 100vw;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.CardContainer{
+  width: 317px;
+  background-color: #1A1B22;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2{
+  font-size: 1rem;
+  font-weight: 400;
+  margin: .3em 0;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Laura{
+  border-radius: 10px 5 0;
+}
+
+.mainTxt, h2, .smallTxt{
+  color: white;
+}
+
+.mainTxt{
+  font-weight: bold;
+  font-size: 1.56rem;
+  margin: .8em 0 0 0;
+}
+
+.jobTitle{
+  color: #F3BF99;
+  font-size: .8rem;
+  margin: 0;
+}
+
+.smallTxt, .smallTxt2{
+  font-size: .64rem;
+}
+
+.emailBtn{
+  width: 247px;
+  font-family: 'poppins', sans-serif;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: .6em 0;
+  border-radius: 10px;
+  border: 0;
+  margin-bottom: 1.5em;
+}
+
+.smallTxt2{
+  width: 247px;
+  margin: 0 0 0 0;
+  color: #DCDCDC;
+}
+
+.footer{
+  width: 317px;
+  height: 67px;;
+  background-color: #161619;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.Interests{
+  margin-top: 1em;
+}
+
+.extraPadding{
+  background-color: #1A1B22;
+  padding-bottom: 3em;
+}
