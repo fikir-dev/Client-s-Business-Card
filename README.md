@@ -8,6 +8,7 @@ It's my first project using React, and I'm using it to learn the basics.
 ## 🌐 Demo
 
 Check out the live site here: https://comfy-monstera-54fb80.netlify.app/
+
 ---
 
 ## 🚀 Getting Started
